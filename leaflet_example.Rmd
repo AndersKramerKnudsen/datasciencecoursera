@@ -1,0 +1,14 @@
+#May 13, 2017
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(leaflet)
+
+m <- leaflet() %>%
+     addTiles() %>% 
+     addMarkers(lat=55.83020, lng=9.86079, popup="My home") #%>% 
+m
+
+```
+
